@@ -32,7 +32,20 @@ provider:
     BITBUCKET_USER: ${env:BITBUCKET_USER}
     BITBUCKET_PSWD: ${env:BITBUCKET_PSWD}
 
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - 'apigateway:*'
+      Resource: '*'
+
+    - Effect: Allow
+      Action:
+        - 'ec2:*'
+      Resource: '*'
+
+
 functions:
+
 # API Configurations ##
   bitBucketBuilds:
     handler: sls/handler.handler
@@ -41,5 +54,4 @@ functions:
           path: bitbucket
           method: get
           cors: true
-#          authorizer:
-#            arn: ${self:provider.environment.YOUR_USER_POOL_ARN}
+
