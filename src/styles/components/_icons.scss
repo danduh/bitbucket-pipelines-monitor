@@ -1,0 +1,10 @@
+.icon {
+    fill: color(ship-gray);
+    width: inherit;
+
+    @each $color, $value in $colors {
+        &.#{$color} {
+            fill: $value !important;
+        }
+    }
+}

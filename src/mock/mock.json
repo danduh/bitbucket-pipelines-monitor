@@ -1,0 +1,218 @@
+[
+    {
+        "repository": "reali-web",
+        "branches": [
+            {
+                "repository": "reali-web",
+                "branch": "develop",
+                "builds": [
+                    {
+                        "id": "{785b863a-fd90-4ff5-bf93-aea5187784fb}",
+                        "buildNumber": 159,
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-web",
+                        "branch": "develop",
+                        "commit": "Merged in master (pull request #56)\n\nChanged env name\n",
+                        "statusText": "Not All Steps Done",
+                        "status": "'#1d8c31'",
+                        "isRunning": true,
+                        "startedAt": "2018-05-01T16:14:16.081Z",
+                        "finishedAt": null
+                    },
+                    {
+                        "id": "{131eda9d-e634-4861-9da5-a64a7371826a}",
+                        "buildNumber": 157,
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-web",
+                        "branch": "develop",
+                        "commit": "Merged in master (pull request #56)\n\nChanged env name\n",
+                        "statusText": "Not All Steps Done",
+                        "status": "'#1d8c31'",
+                        "isRunning": true,
+                        "startedAt": "2018-04-02T18:27:34.292Z",
+                        "finishedAt": null
+                    }
+                ]
+            },
+            {
+                "repository": "reali-web",
+                "branch": "qa",
+                "builds": [
+                    {
+                        "id": "{a8282a5e-578e-4f85-8321-ec778c734236}",
+                        "buildNumber": 153,
+                        "completedOn": "2018-04-02T11:23:05.764Z",
+                        "creator": "Vadym Selishchev",
+                        "repository": "reali-web",
+                        "branch": "qa",
+                        "commit": "Merged in develop (pull request #53)\n\nDevelop -> QA\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-04-02T11:16:22.599Z",
+                        "finishedAt": "2018-04-02T11:23:05.764Z"
+                    },
+                    {
+                        "id": "{780eee8e-a809-496b-9875-429b8aa91b6c}",
+                        "buildNumber": 145,
+                        "completedOn": "2018-03-29T08:30:12.438Z",
+                        "creator": "Vadym Selishchev",
+                        "repository": "reali-web",
+                        "branch": "qa",
+                        "commit": "Merged in develop (pull request #49)\n\nDevelop -> QA\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-03-29T08:24:15.194Z",
+                        "finishedAt": "2018-03-29T08:30:12.438Z"
+                    }
+                ]
+            },
+            {
+                "repository": "reali-web",
+                "branch": "master",
+                "builds": [
+                    {
+                        "id": "{4135b995-11f6-4d83-aeb5-d37b3da8fa02}",
+                        "buildNumber": 156,
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-web",
+                        "branch": "master",
+                        "commit": "Sprint 37\n",
+                        "statusText": "Not All Steps Done",
+                        "status": "'#1d8c31'",
+                        "isRunning": true,
+                        "startedAt": "2018-04-02T18:21:11.262Z",
+                        "finishedAt": null
+                    },
+                    {
+                        "id": "{9c94c6a0-8d24-4946-909c-3a6fdf8aa64b}",
+                        "buildNumber": 127,
+                        "completedOn": "2018-03-22T07:39:42.81Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-web",
+                        "branch": "master",
+                        "commit": "Changed env name\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-03-22T07:32:28.668Z",
+                        "finishedAt": "2018-03-22T07:39:42.810Z"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "repository": "reali-ng-webapp",
+        "branches": [
+            {
+                "repository": "reali-ng-webapp",
+                "branch": "dev",
+                "builds": [
+                    {
+                        "id": "{e58ec77b-9864-42d7-945d-e2bf25c89071}",
+                        "buildNumber": 109,
+                        "completedOn": "2018-05-04T11:26:52.487Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-webapp",
+                        "branch": "dev",
+                        "commit": "minor fix\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-05-04T11:24:26.585Z",
+                        "finishedAt": "2018-05-04T11:26:52.487Z"
+                    },
+                    {
+                        "id": "{a10cf65d-4587-4065-b70f-5fb26284c8d2}",
+                        "buildNumber": 108,
+                        "completedOn": "2018-05-04T11:22:42.748Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-webapp",
+                        "branch": "dev",
+                        "commit": "fix in routing\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-05-04T11:20:08.940Z",
+                        "finishedAt": "2018-05-04T11:22:42.748Z"
+                    }
+                ]
+            },
+            {
+                "repository": "reali-ng-webapp",
+                "branch": "master",
+                "builds": [
+                    {
+                        "id": "{428161ee-9fe1-4d48-aaa4-377eac95ddbf}",
+                        "buildNumber": 47,
+                        "completedOn": "2018-04-24T10:18:03.013Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-webapp",
+                        "branch": "master",
+                        "commit": "pipeline fix\n",
+                        "statusText": "Failed",
+                        "status": "Red",
+                        "isRunning": false,
+                        "startedAt": "2018-04-24T08:17:53.717Z",
+                        "finishedAt": "2018-04-24T10:18:03.013Z"
+                    },
+                    {
+                        "id": "{59d309ce-7430-4f1e-8822-f07b51ff5cbf}",
+                        "buildNumber": 46,
+                        "completedOn": "2018-04-24T08:16:05.766Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-webapp",
+                        "branch": "master",
+                        "commit": "Merged in dev (pull request #11)\n\nDev\n",
+                        "statusText": "Failed",
+                        "status": "Red",
+                        "isRunning": false,
+                        "startedAt": "2018-04-24T08:15:30.717Z",
+                        "finishedAt": "2018-04-24T08:16:05.766Z"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "repository": "reali-ng-echo",
+        "branches": [
+            {
+                "repository": "reali-ng-echo",
+                "branch": "develop",
+                "builds": [
+                    {
+                        "id": "{9a0e4ff2-fc46-4ba3-bf49-39653b44a8dc}",
+                        "buildNumber": 2,
+                        "completedOn": "2018-05-06T10:52:39.502Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-echo",
+                        "branch": "develop",
+                        "commit": "updated pipelines\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-05-06T10:51:35.124Z",
+                        "finishedAt": "2018-05-06T10:52:39.502Z"
+                    },
+                    {
+                        "id": "{75422d90-cc69-4261-8d1c-f8befbeba6ac}",
+                        "buildNumber": 1,
+                        "completedOn": "2018-05-06T10:50:35.893Z",
+                        "creator": "Daniel Ostrovsky",
+                        "repository": "reali-ng-echo",
+                        "branch": "develop",
+                        "commit": "Added CI/CD\n",
+                        "statusText": "Succeeded",
+                        "status": "Green",
+                        "isRunning": false,
+                        "startedAt": "2018-05-06T10:48:15.312Z",
+                        "finishedAt": "2018-05-06T10:50:35.893Z"
+                    }
+                ]
+            }
+        ]
+    }
+]

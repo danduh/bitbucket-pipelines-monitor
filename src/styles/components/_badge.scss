@@ -1,0 +1,16 @@
+.badge {
+    color: color(white);
+    text-align: center;
+
+    &.open {
+        background-color: color(jungle-green);
+    }
+
+    &.pending {
+        background-color: color(buttercup);
+    }
+
+    &.expired {
+        background-color: color(ship-gray);
+    }
+}

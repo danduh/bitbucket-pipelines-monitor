@@ -1,0 +1,45 @@
+service:
+  name: bitbucket-pipelines-monitor
+
+# Add the serverless-webpack plugin
+plugins:
+  - serverless-finch
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.sls.config.js
+
+  defaultRegion: 'us-east-1'
+  region: ${opt:region, self:custom.defaultRegion}
+  stage: ${opt:stage, 'dev'}
+  objectPrefix: '${self:service}-${self:custom.stage}'
+
+  # Upload to S3
+  client:
+    bucketName: '${self:custom.objectPrefix}-tf'
+    distributionFolder: dist
+    errorDocument: index.html
+
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: ${self:custom.region}
+  stage: ${self:custom.stage}
+  enviroment:
+    BITBUCKET_USER: ${env:BITBUCKET_USER}
+    BITBUCKET_PSWD: ${env:BITBUCKET_PSWD}
+
+functions:
+# API Configurations ##
+  bitBucketBuilds:
+    handler: sls/handler.handler
+    events:
+      -  http:
+          path: bitbucket
+          method: get
+          cors: true
+#          authorizer:
+#            arn: ${self:provider.environment.YOUR_USER_POOL_ARN}

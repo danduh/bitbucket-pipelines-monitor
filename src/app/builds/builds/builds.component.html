@@ -1,0 +1,24 @@
+<div class="project" *ngFor="let build of $builds | async">
+    <h2>{{build.repositoryDisplayName}} ({{build.repository}})</h2>
+    <div class="project-branches">
+        <mat-card *ngFor="let branch of build.branches">
+            <mat-card-title>{{branch.branch}}</mat-card-title>
+            <ng-container *ngFor="let build of branch.builds">
+                <mat-card-content [style.backgroundColor]="build.status">
+                    <div class="build-info">
+                        <div class="part">
+                            <mat-card-subtitle>{{build.buildNumber}}</mat-card-subtitle>
+                            <h4>{{build.statusText}}</h4>
+                            <h5 class="creator">{{build.creator}}</h5>
+                        </div>
+                        <div class="part-short">
+                            <span class="startedAt">{{build.startedAt | date :'short'}}</span>
+                        </div>
+                    </div>
+                    <p class="commit">{{build.commit}}</p>
+                </mat-card-content>
+
+            </ng-container>
+        </mat-card>
+    </div>
+</div>

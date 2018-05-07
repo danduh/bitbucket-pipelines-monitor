@@ -1,0 +1,31 @@
+{
+    "monitor": {
+        "interval": 5000,
+        "numberOfBuilds": 12,
+        "latestBuildOnly": false,
+        "sortOrder": "date",
+        "debug": true
+    },
+    "services": [
+        {
+            "name": "BitbucketPipelines",
+            "configuration": {
+                "email": "daniel@reali.com",
+                "slug": "reali-dev/reali-web",
+                "password": "Reali2018",
+                "numberOfBuilds": 2,
+                "branch": "develop"
+            }
+        },
+        {
+            "name": "BitbucketPipelines",
+            "configuration": {
+                "email": "daniel@reali.com",
+                "slug": "reali-dev/reali-web",
+                "password": "Reali2018",
+                "numberOfBuilds": 2,
+                "branch": "master"
+            }
+        }
+    ]
+}
