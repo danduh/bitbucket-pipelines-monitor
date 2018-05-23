@@ -8,16 +8,16 @@ export const config = {
     },
     repos: [
         {
-            name: 'Reali Old APP',
-            slug: 'reali-dev/reali-web',
-            numberOfBuilds: 1,
-            branches: ['develop', 'qa', 'master']
-        },
-        {
             name: 'Reali NG AP',
             slug: 'reali-dev/reali-ng-webapp',
             numberOfBuilds: 1,
             branches: ['dev', 'master', 'qa', 'staging']
+        },
+        {
+            name: 'Reali NG ECHO',
+            slug: 'reali-dev/reali-ng-echo',
+            numberOfBuilds: 1,
+            branches: ['develop', 'master']
         },
         {
             name: 'Reali RIP Office',
@@ -26,10 +26,10 @@ export const config = {
             branches: ['develop', 'qa']
         },
         {
-            name: 'Reali NG ECHO',
-            slug: 'reali-dev/reali-ng-echo',
+            name: 'Reali Old APP',
+            slug: 'reali-dev/reali-web',
             numberOfBuilds: 1,
-            branches: ['develop', 'master']
+            branches: ['develop', 'qa', 'master']
         },
         {
             name: 'Reali GO Api',
