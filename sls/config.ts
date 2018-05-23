@@ -17,7 +17,13 @@ export const config = {
             name: 'Reali NG AP',
             slug: 'reali-dev/reali-ng-webapp',
             numberOfBuilds: 1,
-            branches: ['dev', 'master']
+            branches: ['dev', 'master', 'qa', 'staging']
+        },
+        {
+            name: 'Reali RIP Office',
+            slug: 'reali-dev/reali-back-office',
+            numberOfBuilds: 1,
+            branches: ['develop', 'qa']
         },
         {
             name: 'Reali NG ECHO',
